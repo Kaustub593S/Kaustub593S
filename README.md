@@ -316,7 +316,7 @@ FEATURES:
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Kaustub593S/Kaustub593S/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Kaustub593S/Kaustub593S/output/github-snake-dark.svg)
 
 > 🐍 *the snake eats my commits so I don't have to feel bad about them*
 
