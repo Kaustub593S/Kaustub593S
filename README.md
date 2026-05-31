@@ -10,7 +10,7 @@
 <br/><br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kaustub593S&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Kaustub593S)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%2300ff41.svg?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/kaustub-gairola-245865333/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%2300ff41.svg?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in//kaustub-gairola-245865333/)
 [![Gmail](https://img.shields.io/badge/Gmail-%2300ff41.svg?style=for-the-badge&logo=gmail&logoColor=black)](mailto:mailtokaustubgairola@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%2300ff41.svg?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kaustub593S)
 
@@ -37,7 +37,7 @@ WARNING   = "Will spontaneously explain CAP theorem at parties"
 
 ---
 
-## `> cat ./terminal.sh`  
+## `> cat ./terminal.sh`
 *// honest thoughts at 2am*
 
 ```
@@ -279,29 +279,18 @@ FEATURES:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kaustub593S&show_icons=true&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117&cache_seconds=1800&rank_icon=github"/>
-<img height="170" src="https://streak-stats.demolab.com/?user=Kaustub593S&theme=chartreuse-dark&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&border=00ff41&background=0d1117"/>
+<img height="170" src="https://streak-stats.demolab.com/?user=Kaustub593S&theme=chartreuse-dark&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&border=00ff41&background=0d1117&dates=ffffff" alt="GitHub Streak"/>
 
-</div>
-
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaustub593S&layout=compact&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&text_color=ffffff&bg_color=0d1117&cache_seconds=1800"/>
 </div>
 
 ---
 
-## `> ./leetcode --stats`
+## `> ./dsa-stats --all-platforms`
 
 <div align="center">
-<img src="https://leetcard.jacoblin.cool/Kaus_theta?theme=dark&font=Fira+Code&ext=heatmap"/>
-</div>
 
----
+<img src="https://leetcard.jacoblin.cool/Kaus_theta?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode Stats"/>
 
-## `> cat ./trophies.json`
-
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Kaustub593S&theme=matrix&row=1&column=7&margin-w=8&no-bg=true&no-frame=false"/>
 </div>
 
 ---
@@ -309,7 +298,7 @@ FEATURES:
 ## `> ./contribution-graph --render`
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaustub593S&theme=high-contrast&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=false"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kaustub593S&theme=high-contrast&color=00FF41&line=00FF41&point=ffffff&area=true&hide_border=false" alt="Contribution Graph"/>
 </div>
 
 ---
@@ -318,15 +307,11 @@ FEATURES:
 
 <div align="center">
 
-![Snake animation](https://github.com/Kaustub593S/Kaustub593S/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/Kaustub593S/Kaustub593S/output/github-snake-dark.svg)
 
 > 🐍 *the snake eats my commits so I don't have to feel bad about them*
 
-</div>
 
-> ⚠️ **Setup required** — see [`SNAKE_SETUP.md`](./SNAKE_SETUP.md) in this repo for instructions.
-
----
 
 <div align="center">
 
