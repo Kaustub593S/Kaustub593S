@@ -322,10 +322,6 @@ FEATURES:
 
 </div>
 
-> ⚠️ **Setup required** — see [`SNAKE_SETUP.md`](./SNAKE_SETUP.md) in this repo for instructions.
-
----
-
 <div align="center">
 
 ```
