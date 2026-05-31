@@ -26,7 +26,7 @@ $ cat /etc/profile.d/kaustub.sh
 NAME      = "Kaustub Gairola"
 ROLE      = "Backend Developer"
 UNIVERSITY= "KIIT University — B.Tech CSE (2024–2028)"
-GPA       = 9.23                    # yes, that's real
+GPA       = 9.3                    # yes, that's real
 COMPANY   = "Onix"                  # currently surviving internship
 LOCATION  = "India 🇮🇳"
 STACK     = ["Java", "Spring Boot", "PostgreSQL", "Redis"]
