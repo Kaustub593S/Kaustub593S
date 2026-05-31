@@ -102,19 +102,7 @@ WARNING   = "Will spontaneously explain CAP theorem at parties"
 
 ---
 
-## `> ./spotify-status --live`
 
-<div align="center">
-
-[![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&cover_image=true&theme=natemoo-re&show_offline=true&background_color=0d1117&interchange=false&bar_color=00ff41&bar_color_cover=false)](https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_USER_ID&redirect=true)
-
-> 🎵 *whatever's playing is probably the reason the bug got fixed*
-
-</div>
-
-> ⚠️ **Setup required** — see [`SPOTIFY_SETUP.md`](./SPOTIFY_SETUP.md) in this repo for instructions.
-
----
 
 ## `> ls -la ./tech-stack/`
 
@@ -175,6 +163,7 @@ WARNING   = "Will spontaneously explain CAP theorem at parties"
 PROJECT : Vaultify
 TYPE    : Secure Personal Finance Management Backend
 STACK   : Java · Spring Boot · Spring Security · PostgreSQL · JPA/Hibernate
+REPO    : https://github.com/Kaustub593S/Vaultify
 
 FEATURES:
   ✦ JWT Authentication & Authorization
@@ -183,6 +172,9 @@ FEATURES:
   ✦ Secure REST APIs with input validation
   ✦ PostgreSQL persistence with Hibernate ORM
 ```
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-Vaultify-%2300ff41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kaustub593S/Vaultify)
+
 </details>
 
 <details>
@@ -192,6 +184,7 @@ FEATURES:
 PROJECT : URL Shortener
 TYPE    : High-Performance URL Resolution Backend
 STACK   : Java · Spring Boot · PostgreSQL · JPA
+REPO    : https://github.com/Kaustub593S/UrlShortener
 
 FEATURES:
   ✦ Collision-resistant short code generation
@@ -199,6 +192,9 @@ FEATURES:
   ✦ Persistent URL storage with redirect tracking
   ✦ RESTful API endpoints
 ```
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-UrlShortener-%2300ff41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kaustub593S/UrlShortener)
+
 </details>
 
 <details>
@@ -208,6 +204,7 @@ FEATURES:
 PROJECT : API Rate Limiter
 TYPE    : Backend Infrastructure / Middleware
 STACK   : Java · Spring Boot · Redis · Token Bucket Algorithm
+REPO    : [coming soon — actively building 🔨]
 
 FEATURES:
   ✦ Token Bucket Algorithm implementation
@@ -216,6 +213,9 @@ FEATURES:
   ✦ API abuse protection layer
   STATUS  : [████████░░░░░░ 60%]
 ```
+
+![Coming Soon](https://img.shields.io/badge/Repo-Coming%20Soon-%23555555?style=for-the-badge&logo=github&logoColor=white)
+
 </details>
 
 <details>
@@ -225,6 +225,7 @@ FEATURES:
 PROJECT : Task Manager
 TYPE    : RESTful Task Management System
 STACK   : Java · Spring Boot · Spring Security · PostgreSQL
+REPO    : https://github.com/Kaustub593S/TaskManager
 
 FEATURES:
   ✦ Spring Security Authentication
@@ -232,6 +233,9 @@ FEATURES:
   ✦ PostgreSQL persistence
   ✦ Global Exception Handling
 ```
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-TaskManager-%2300ff41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kaustub593S/TaskManager)
+
 </details>
 
 ---
@@ -320,7 +324,7 @@ FEATURES:
 
 > 🐍 *the snake eats my commits so I don't have to feel bad about them*
 
-</div>
+---
 
 <div align="center">
 
