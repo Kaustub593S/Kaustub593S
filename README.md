@@ -102,8 +102,6 @@ WARNING   = "Will spontaneously explain CAP theorem at parties"
 
 ---
 
-
-
 ## `> ls -la ./tech-stack/`
 
 ### ◈ Languages
@@ -281,13 +279,13 @@ FEATURES:
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kaustub593S&show_icons=true&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117"/>
-<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Kaustub593S&theme=chartreuse-dark&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&border=00ff41"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Kaustub593S&show_icons=true&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&icon_color=00ff41&text_color=ffffff&bg_color=0d1117&cache_seconds=1800&rank_icon=github"/>
+<img height="170" src="https://streak-stats.demolab.com/?user=Kaustub593S&theme=chartreuse-dark&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&border=00ff41&background=0d1117"/>
 
 </div>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaustub593S&layout=compact&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&text_color=ffffff&bg_color=0d1117"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kaustub593S&layout=compact&theme=chartreuse-dark&border_color=00ff41&title_color=00ff41&text_color=ffffff&bg_color=0d1117&cache_seconds=1800"/>
 </div>
 
 ---
@@ -303,7 +301,7 @@ FEATURES:
 ## `> cat ./trophies.json`
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Kaustub593S&theme=matrix&row=1&column=7&margin-w=8"/>
+<img src="https://github-profile-trophy.vercel.app/?username=Kaustub593S&theme=matrix&row=1&column=7&margin-w=8&no-bg=true&no-frame=false"/>
 </div>
 
 ---
@@ -320,9 +318,13 @@ FEATURES:
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/Kaustub593S/Kaustub593S/output/github-snake-dark.svg)
+![Snake animation](https://github.com/Kaustub593S/Kaustub593S/blob/output/github-contribution-grid-snake-dark.svg)
 
 > 🐍 *the snake eats my commits so I don't have to feel bad about them*
+
+</div>
+
+> ⚠️ **Setup required** — see [`SNAKE_SETUP.md`](./SNAKE_SETUP.md) in this repo for instructions.
 
 ---
 
