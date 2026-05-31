@@ -10,7 +10,7 @@
 <br/><br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Kaustub593S&color=00ff41&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/Kaustub593S)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%2300ff41.svg?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/kaustub-gairola)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%2300ff41.svg?style=for-the-badge&logo=linkedin&logoColor=black)](https://linkedin.com/in/kaustub-gairola-245865333/)
 [![Gmail](https://img.shields.io/badge/Gmail-%2300ff41.svg?style=for-the-badge&logo=gmail&logoColor=black)](mailto:mailtokaustubgairola@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-%2300ff41.svg?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kaustub593S)
 
