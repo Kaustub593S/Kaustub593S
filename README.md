@@ -255,7 +255,7 @@ FEATURES:
   [✓] Navigated a massive Spring Boot codebase
   [✓] Survived the PR review process
 ```
-
+[![View PR #2302](https://img.shields.io/badge/View%20PR%20%232302-WebGoat-%2300ff41?style=for-the-badge&logo=github&logoColor=black)](https://github.com/WebGoat/WebGoat/pull/2302)
 ---
 
 ## `> ./achievements --list`
