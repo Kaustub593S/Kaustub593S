@@ -8,8 +8,9 @@
 
 <br><br>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6DB33F?style=flat-square&logo=linkedin&logoColor=0B1220)](https://linkedin.com/in/kaustub-gairola-245865333/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6DB33F?style=flat-square&logo=linkedin&logoColor=0B1220)](https://www.linkedin.com/in/kaustub-gairola/)
 [![Email](https://img.shields.io/badge/Email-00C2A8?style=flat-square&logo=gmail&logoColor=0B1220)](mailto:mailtokaustubgairola@gmail.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFB020?style=flat-square&logo=leetcode&logoColor=0B1220)](https://leetcode.com/u/Kaus_theta/)
 [![Terminal](https://img.shields.io/badge/Live%20terminal-0B1220?style=flat-square&logo=gnometerminal&logoColor=6DB33F)](https://kaustub593s.github.io)
 
 </div>
@@ -23,11 +24,20 @@
   "name": "Kaustub Gairola",
   "role": "Backend Engineer",
   "education": "B.Tech CSE, KIIT University (CGPA 9.18)",
-  "stack": ["Java", "Spring Boot", "Spring Security", "PostgreSQL"],
-  "agents": ["Google ADK", "A2A communication"],
+  "stack": ["Java", "Spring Boot", "Spring Security", "PostgreSQL", "Redis"],
   "focus": ["Distributed systems", "REST API design", "Agentic AI"]
 }
 ```
+
+## Life of a request
+
+<div align="center">
+  <img src="assets/request-flow.svg" alt="A request travelling through the Spring Boot layers, a 401 rejection and a 429 rejection" width="900">
+</div>
+
+This is the layered shape my Spring Boot projects follow. It's a loop here, but in the [live terminal](https://kaustub593s.github.io) you can send the requests yourself: type `curl localhost:8080/api/projects`, then `curl localhost:8080/api/admin`, then `login admin` and try again.
+
+---
 
 ## `GET /actuator/health`
 
@@ -36,55 +46,8 @@
 | [Vaultify](https://github.com/Kaustub593S/Vaultify) | 🟢 UP | Secure finance backend: JWT, RBAC, layered architecture, PostgreSQL |
 | [URL Shortener](https://github.com/Kaustub593S/UrlShortener) | 🟢 UP | Collision-free short codes, indexed lookups, redirects |
 | [Task Manager](https://github.com/Kaustub593S/TaskManager) | 🟢 UP | Secured REST API, enum status transitions, global exception handling |
-| Prompt-to-App AI Platform | 🟡 BUILDING | Natural language → web app architecture and code, agentic workflow |
-| API Rate Limiter | 🟡 BUILDING | Token bucket + Redis, request-interception middleware |
-
----
-
-## Architecture
-
-**Onix: enterprise AI agent** (Java, Spring Boot, Google ADK). Described at the architecture level only.
-
-```mermaid
-flowchart LR
-    U[Upstream system] -->|real-time input| P[Cross-product agent]
-    P <-->|A2A| J[Job agent]
-    C[Client] --> E1[Agent endpoint<br/>create · discover · status]
-    C --> E2[Download endpoint<br/>optimized for large jobs]
-    E1 --> J
-    E2 --> J
-    J --> DB[(Job store)]
-```
-
-**Vaultify: JWT auth flow**
-
-```mermaid
-sequenceDiagram
-    participant C as Client
-    participant F as JWT Filter
-    participant A as Auth Controller
-    participant S as Service
-    participant DB as PostgreSQL
-    C->>A: POST /login (credentials)
-    A-->>C: 200 + JWT
-    C->>F: GET /transactions (Bearer token)
-    F->>F: validate token, load role (RBAC)
-    F->>S: authorized request
-    S->>DB: query (indexed)
-    DB-->>S: rows
-    S-->>C: 200 JSON
-```
-
-**Rate limiter: design in progress**
-
-```mermaid
-flowchart LR
-    C[Client] --> F[Rate limit filter]
-    F -->|take token| R[(Redis)]
-    F -->|token available| S[Controller → Service → Repository]
-    F -->|bucket empty| X[429 Too Many Requests]
-    S --> P[(PostgreSQL)]
-```
+| [API Rate Limiter](https://github.com/Kaustub593S?tab=repositories) | 🟢 UP | Token bucket, Redis-backed state, request-interception middleware |
+| [Prompt-to-App AI Platform](https://github.com/Kaustub593S?tab=repositories) | 🟢 UP | Natural language → working web app, repo built with Lovable |
 
 ---
 
@@ -95,28 +58,31 @@ flowchart LR
 | Language | Java, C, Python, SQL |
 | Framework | Spring Boot, Spring Security, Spring Data JPA / Hibernate |
 | API | REST design, JWT + RBAC, Postman, centralized validation and error handling |
-| Data | PostgreSQL, indexed queries |
+| Data | PostgreSQL, Redis, indexed queries |
 | Agents | Google Agent Development Kit, A2A communication, OpenAI API |
 | Cloud and tooling | Google Cloud, Docker, Git, Maven, IntelliJ, Jira |
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,spring,postgres,docker,gcp,git,maven,idea&theme=dark" alt="stack icons">
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,docker,gcp,git,maven,idea&theme=dark" alt="stack icons">
 </p>
 
 ---
 
-## `git log --oneline`
+## My contributions, as a city
 
-```
-2026-05..06  Onix · Intern
-             built an enterprise AI agent end to end (Java, Spring Boot)
-             A2A communication between cross-product agents
-             dual-endpoint REST design: agent operations + optimized downloads
-2026-06      Prompt-to-App AI Platform started
-2026-04      Vaultify shipped
-2026-03      URL Shortener shipped
-2026-01      Task Manager shipped
-```
+<div align="center">
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution graph: each day's commits as a building" width="100%">
+</div>
+
+## DSA
+
+<div align="center">
+  <a href="https://leetcode.com/u/Kaus_theta/">
+    <img src="https://leetcard.jacoblin.cool/Kaus_theta?theme=dark&font=Fira+Code&ext=heatmap" alt="LeetCode stats for Kaus_theta">
+  </a>
+</div>
+
+---
 
 ## Open source
 
@@ -133,13 +99,10 @@ flowchart LR
 
 ## `POST /contact`
 
-```http
-POST /contact HTTP/1.1
-Content-Type: application/json
-
-{
-  "email": "mailtokaustubgairola@gmail.com",
-  "linkedin": "linkedin.com/in/kaustub-gairola-245865333",
-  "terminal": "kaustub593s.github.io"
-}
-```
+| | |
+|---|---|
+| ✉️ Email | [mailtokaustubgairola@gmail.com](mailto:mailtokaustubgairola@gmail.com) |
+| 💼 LinkedIn | [linkedin.com/in/kaustub-gairola](https://www.linkedin.com/in/kaustub-gairola/) |
+| 🧩 LeetCode | [leetcode.com/u/Kaus_theta](https://leetcode.com/u/Kaus_theta/) |
+| 💻 Terminal | [kaustub593s.github.io](https://kaustub593s.github.io) |
+| 🐙 GitHub | [github.com/Kaustub593S](https://github.com/Kaustub593S) |
